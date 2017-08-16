@@ -1,0 +1,13 @@
+{
+  "name": "gladys-dummy-module",
+  "version": "0.1.0",
+  "description": "A dummy module to dive into Gladys' module dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boimb",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+  }
+}
