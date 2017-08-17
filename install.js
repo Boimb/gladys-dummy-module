@@ -4,7 +4,7 @@ module.exports = function install() {
 
     return new Promise(function(resolve, reject) {
         // async work here
-        const valueToReturn = console.log('myModule is being installed');
+        const valueToReturn = console.log('This will appear just one time...');
 
         resolve(valueToReturn);
 

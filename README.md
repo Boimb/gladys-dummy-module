@@ -72,6 +72,13 @@ Simply do :
 
     gladys.modules.myAwesomeModule.MyStunningFunc()
 
+If you want to acces or log the results of those functions, don't forget they return a Promise !
+
+    gladys.modules.myAwesomeModule.MyStunningFunc()
+        .then((result)=> console.log(result))
+        .catch((error) => console.log('oups: ', error );
+
+
 ### How to use this repository as base
 
 If u don't like git ~~and are silly~~... Copy paste the content of each file respecting the tree.
@@ -111,7 +118,7 @@ Or...
 
 ### Licence
 
-![][https://licensebuttons.net/l/by-nc-sa/3.0/nl/88x31.png]
+![](https://licensebuttons.net/l/by-nc-sa/3.0/nl/88x31.png)
 
 Distributed under Creative Commons 3.0 France [Licence](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)
 
