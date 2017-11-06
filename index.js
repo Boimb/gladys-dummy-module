@@ -4,11 +4,12 @@
 
 module.exports = function(sails) {
 
-        const install = require('./install');
-        const myAwesomeFunction = require('./lib/myAwesomeFunction');
-        const iLoveGladys = require('./lib/iLoveGladys');
-        const getAGladysParam = require('./lib/getAGladysParam');
-        const dbCalls = require('./lib/retrieveFromDb');
+        const install = require('./install')
+        const myAwesomeFunction = require('./lib/myAwesomeFunction')
+        const iLoveGladys = require('./lib/iLoveGladys')
+        const getAGladysParam = require('./lib/getAGladysParam')
+        const dbCalls = require('./lib/retrieveFromDb')
+        const skySTheLimit = require('./lib/skySTheLimit')
 
     return {
         install : install,
@@ -16,6 +17,9 @@ module.exports = function(sails) {
         iLoveGladys : iLoveGladys,
         // shortand ES6 declaration
         getAGladysParam,
-        dbCalls
+        // You can have an object of functions instead of just a function.
+        // e.g you'll have to call dbCalls.getAllUsers()
+        dbCalls,
+        skySTheLimit
     }
 };
