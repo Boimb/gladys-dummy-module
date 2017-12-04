@@ -23,6 +23,7 @@ module.exports = function(sails) {
     // e.g you'll have to call dbCalls.getAllUsers()
     dbCalls,
     skySTheLimit,
+    newDevice,
     exec
   }
 };
