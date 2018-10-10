@@ -10,6 +10,7 @@ const dbCalls = require('./lib/retrieveFromDb')
 const skySTheLimit = require('./lib/skySTheLimit')
 const newDevice = require('./lib/newDevice')
 const exec = require('./lib/exec')
+const playWithClient = require('./lib/playWithClient')
 
 module.exports = function(sails) {
 
@@ -24,6 +25,7 @@ module.exports = function(sails) {
     dbCalls,
     skySTheLimit,
     newDevice,
-    exec
+    exec,
+    playWithClient
   }
 };
