@@ -2,7 +2,7 @@
  * fake light-lib-client... Don't get disturbed :D
  * In real life, this will be a package.
  */
-function lightLibClient () {
+module.exports = function LightLibClient () {
   // Fake an authentication method
   this.authenticate = (credentials) => {
     if (credentials) {
@@ -32,5 +32,3 @@ function lightLibClient () {
   this.getDevicesStatus = () => this.getDevices()
     .then(devices => Promise.resolve(devices.map(device => device.status)));
 }
-
-export default LightLibClient = lightLibClient
