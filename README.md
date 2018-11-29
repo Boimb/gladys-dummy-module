@@ -117,12 +117,4 @@ Or...
 7. Now you're on your own...
 
 ### Licence
-
-![](https://licensebuttons.net/l/by-nc-sa/3.0/nl/88x31.png)
-
-Distributed under Creative Commons 3.0 France [Licence](https://creativecommons.org/licenses/by-nc-sa/3.0/fr/)
-
-Not officially part of the Gladys Project created by Pierre Gilles Leymarie
-But prowdly promoting it and contributing.
-
-Visit : [Gladys Project GitHub page](https://github.com/GladysProject/Gladys)
+Released under MIT Licence
